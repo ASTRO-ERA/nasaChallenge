@@ -1,0 +1,27 @@
+.image{
+    height: auto;
+    width: 30%;
+    object-fit: contain;
+}
+
+.dataList{
+    display: flex;
+    height: 200px;
+}
+
+.list{
+}
+
+.text{
+    height: 100px;
+    overflow: auto;
+}
+
+.ul{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+

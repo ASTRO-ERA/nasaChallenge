@@ -1,10 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
+.navbar *{
+    font-weight: bold;
 }
 
-h1{
-    padding: 10px 20px;
+.navbar h1{
+    padding: 10px 50px;
+    font-size: 30px;
 }
 
 nav{
@@ -13,13 +13,18 @@ nav{
     background-color: rgba(240, 248, 255, 0.766);
 }
 
-ul{
+.navbarlist{
     display: flex;
     text-decoration: none;
     list-style: none;
     /* width: 30%; */
 }
 
-ul li{
-    padding: 17.5px 40px;
+.navbar li{
+    padding: 19px 40px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
 }
