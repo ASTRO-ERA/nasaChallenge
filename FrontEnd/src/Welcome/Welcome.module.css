@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    height: 90%;
+}
+
+.walking{
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    bottom: 140px;
+    left: 250px;
+}
+
+.sitting{
+    width: 20%;
+    height: 42%;
+    align-self: center;
+}
+
+.h1{
+    margin: 40px;
+    padding: 20px;
+    font-size: 50px;
+    width: 400px;
+}
